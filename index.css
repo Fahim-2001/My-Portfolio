@@ -7,6 +7,9 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 35px;
+}
 .flexible-container {
   display: flex;
   padding-bottom: 90px;
@@ -18,7 +21,7 @@ h1 {
 .half-width img {
   width: 75%;
 }
-a {
+.link-button {
   color: white;
   font-weight: 700;
   text-decoration: none;
@@ -30,4 +33,36 @@ a {
   );
   padding: 10px 40px;
   border-radius: 8px;
+}
+.third-class {
+  background-image: url(Backgrounds/moonlike\ blue\ shape.jpeg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.experience-items {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+}
+.programmer-title {
+  color: rgba(22, 62, 235, 1);
+}
+#full-stack-developer {
+  border-left: 7px solid rgb(68, 68, 248);
+}
+#Programming-Hero {
+  color: black;
+  text-decoration: none;
+}
+#baby-web-developer {
+  border-left: 7px solid blue;
+}
+footer p {
+  text-align: center;
+  opacity: 0.8;
 }
